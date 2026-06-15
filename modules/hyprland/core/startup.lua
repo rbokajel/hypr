@@ -1,7 +1,9 @@
 hl.on("hyprland.start", function ()
   -- Hyprland Preliminaries
   hl.exec_cmd("hyprctl sercursor Nordzy-cursors 24")
-  hl.exec_cmd("qs -c noctalia-shell")
+  hl.exec_cmd("hyprpaper")
+
+  hl.exec_cmd("noctalia-shell")
 end)
 
 hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
